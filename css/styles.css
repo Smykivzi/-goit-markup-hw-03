@@ -39,11 +39,13 @@ body {
 	margin: 0 auto;
 	padding: 0 15px;
 }
-.header-container {
+.container-header {
 	display: flex;
 	align-items: center;
+	max-width: 1158px;
+	margin: 0 auto;
+	padding: 0 15px;
 }
-
 .link {
 	text-decoration: none;
 }
@@ -85,11 +87,11 @@ body {
 .header-addess {
 	display: flex;
 	align-items: center;
+	margin-left: auto;
 }
 .header-list {
 	display: flex;
 	gap: 40px;
-	margin-right: 332px;
 }
 .header-list-item {
 	font-weight: 500;
@@ -146,9 +148,15 @@ body {
 }
 .hero-btn {
 	font-family: "Roboto", sans-serif;
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	width: 169px;
+	height: 56px;
+	gap: 10px;
+	padding-left: 32px;
 	font-size: 16px;
 	line-height: 1.5;
-	display: flex;
 	align-items: center;
 	letter-spacing: 0.04em;
 	color: var(--white-pure-color);
@@ -156,7 +164,7 @@ body {
 	background: var(--blue-first-color);
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 	border-radius: 4px;
-	margin: auto;
+	margin: 0 auto;
 }
 .hero-btn:hover,
 .hero-btn:focus {
@@ -164,7 +172,6 @@ body {
 }
 .methods {
 	padding-top: 120px;
-	padding-left: 72px;
 }
 .visually-hidden {
 	position: absolute;
@@ -204,6 +211,7 @@ body {
 }
 .work {
 	padding-top: 120px;
+	padding-bottom: 120px;
 }
 .work-title {
 	font-size: 36px;
@@ -220,7 +228,7 @@ body {
 }
 .team {
 	background: var(--white-first-color);
-	padding-top: 120px;
+	padding: 120px 0 120px;
 }
 .team-list {
 	display: flex;
@@ -233,7 +241,7 @@ body {
 	letter-spacing: 0.02em;
 	text-transform: capitalize;
 	color: var(--main-color);
-	padding: 120px 0 72px;
+	margin-bottom: 72px;
 }
 .team-name {
 	font-size: 20px;
@@ -253,6 +261,7 @@ body {
 }
 .team-content {
 	padding: 32px 16px;
+	background-color: var(--white-pure-color);
 }
 
 .footer-logo {
@@ -267,8 +276,6 @@ body {
 	text-transform: uppercase;
 	color: var(--white-first-color);
 	margin-bottom: 16px;
-	padding-top: 100px;
-	max-width: 115px;
 }
 .footer-logo span {
 	color: var(--blue-first-color);
@@ -279,10 +286,10 @@ body {
 	letter-spacing: 0.02em;
 	color: var(--white-second-color);
 	width: 264px;
-	padding-bottom: 132px;
 }
 .footer {
 	background: var(--main-color);
+	padding: 100px 0;
 }
 .portfolio {
 	display: flex;
@@ -294,7 +301,7 @@ body {
 .portfolio-list {
 	display: flex;
 	gap: 24px;
-	margin-left: 354px;
+	justify-content: center;
 }
 .btn {
 	font-family: inherit;
@@ -306,7 +313,12 @@ body {
 	align-items: center;
 	text-align: center;
 	letter-spacing: 0.04em;
+	height: 48px;
 	color: var(--blue-first-color);
+	padding: 24px;
+	background: var(--white-first-color);
+	border: 1px solid var(--white-second-color);
+	border-radius: 4px;
 }
 .btn:hover,
 .btn:focus {
@@ -314,12 +326,10 @@ body {
 	background: var(--blue-second-color);
 }
 .exampl-list {
-	display: flex;
 	flex-wrap: wrap;
 	row-gap: 48px;
 	column-gap: 24px;
 	margin-top: 72px;
-	border-bottom: 1px solid var(--white-second-color);
 }
 .exampl-subtitle {
 	font-weight: 500;
@@ -327,10 +337,15 @@ body {
 	line-height: 1.2;
 	letter-spacing: 0.02em;
 	color: var(--main-color);
+	border-right: 1px solid var(--white-second-color);
+	border-left: 1px solid var(--white-second-color);
 }
 .exampl-descr {
 	font-size: 16px;
 	line-height: 1.5;
 	letter-spacing: 0.02em;
 	color: var(--accent-color);
+	border-right: 1px solid var(--white-second-color);
+	border-left: 1px solid var(--white-second-color);
+	border-bottom: 1px solid var(--white-second-color);
 }
