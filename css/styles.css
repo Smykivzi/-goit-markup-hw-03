@@ -331,23 +331,28 @@ body {
 	column-gap: 24px;
 	margin-top: 72px;
 }
+.exampl-content {
+	padding: 32px 16px;
+	border-right: 1px solid var(--white-second-color);
+	border-left: 1px solid var(--white-second-color);
+	border-bottom: 1px solid var(--white-second-color);
+}
 .exampl-subtitle {
 	font-weight: 500;
 	font-size: 20px;
 	line-height: 1.2;
 	letter-spacing: 0.02em;
 	color: var(--main-color);
-	border-right: 1px solid var(--white-second-color);
-	border-left: 1px solid var(--white-second-color);
-	margin-top: 32px;
+	/* border-right: 1px solid var(--white-second-color);
+	border-left: 1px solid var(--white-second-color); */
+	margin-bottom: 8px;
 }
 .exampl-descr {
 	font-size: 16px;
 	line-height: 1.5;
 	letter-spacing: 0.02em;
 	color: var(--accent-color);
-	border-right: 1px solid var(--white-second-color);
+	/* border-right: 1px solid var(--white-second-color);
 	border-left: 1px solid var(--white-second-color);
-	border-bottom: 1px solid var(--white-second-color);
-	margin-top: 8px;
+	border-bottom: 1px solid var(--white-second-color); */
 }
