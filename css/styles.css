@@ -60,7 +60,7 @@ body {
 	align-items: center;
 }
 .header {
-	border: bottom 1px solid var(--white-second-color);
+	border-bottom: 1px solid var(--white-second-color);
 }
 .header-navigation {
 	display: flex;
@@ -72,8 +72,7 @@ body {
 	font-weight: 800;
 	font-size: 18px;
 	line-height: 1.33;
-	display: flex;
-	align-items: center;
+	display: inline-block;
 	letter-spacing: 0.03em;
 	text-transform: uppercase;
 	text-decoration: none;
@@ -140,6 +139,7 @@ body {
 }
 .hero-title {
 	font-size: 56px;
+	font-weight: 700;
 	line-height: 1.07;
 	text-align: center;
 	letter-spacing: 0.02em;
@@ -148,6 +148,7 @@ body {
 }
 .hero-btn {
 	font-family: "Roboto", sans-serif;
+	font-weight: 500;
 	display: flex;
 	flex-direction: row;
 	align-items: flex-start;
@@ -164,6 +165,7 @@ body {
 	background: var(--blue-first-color);
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 	border-radius: 4px;
+	border: none;
 	margin: 0 auto;
 }
 .hero-btn:hover,
@@ -197,6 +199,7 @@ body {
 }
 
 .mtd-list-title {
+	font-weight: 500;
 	font-size: 20px;
 	line-height: 1.2;
 	letter-spacing: 0.02em;
@@ -214,6 +217,7 @@ body {
 	padding-bottom: 120px;
 }
 .work-title {
+	font-weight: 700;
 	font-size: 36px;
 	line-height: 1.11;
 	text-align: center;
@@ -235,6 +239,7 @@ body {
 	gap: 24px;
 }
 .team-title {
+	font-weight: 700;
 	font-size: 36px;
 	line-height: 1.11;
 	text-align: center;
@@ -244,6 +249,7 @@ body {
 	margin-bottom: 72px;
 }
 .team-name {
+	font-weight: 500;
 	font-size: 20px;
 	line-height: 1.2;
 	text-align: center;
@@ -270,8 +276,7 @@ body {
 	font-weight: 800;
 	font-size: 18px;
 	line-height: 1.7;
-	display: flex;
-	align-items: center;
+	display: inline-block;
 	letter-spacing: 0.03em;
 	text-transform: uppercase;
 	color: var(--white-first-color);
@@ -343,8 +348,6 @@ body {
 	line-height: 1.2;
 	letter-spacing: 0.02em;
 	color: var(--main-color);
-	/* border-right: 1px solid var(--white-second-color);
-	border-left: 1px solid var(--white-second-color); */
 	margin-bottom: 8px;
 }
 .exampl-descr {
@@ -352,7 +355,4 @@ body {
 	line-height: 1.5;
 	letter-spacing: 0.02em;
 	color: var(--accent-color);
-	/* border-right: 1px solid var(--white-second-color);
-	border-left: 1px solid var(--white-second-color);
-	border-bottom: 1px solid var(--white-second-color); */
 }
