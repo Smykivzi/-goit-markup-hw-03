@@ -339,6 +339,7 @@ body {
 	color: var(--main-color);
 	border-right: 1px solid var(--white-second-color);
 	border-left: 1px solid var(--white-second-color);
+	margin-top: 32px;
 }
 .exampl-descr {
 	font-size: 16px;
@@ -348,4 +349,5 @@ body {
 	border-right: 1px solid var(--white-second-color);
 	border-left: 1px solid var(--white-second-color);
 	border-bottom: 1px solid var(--white-second-color);
+	margin-top: 8px;
 }
